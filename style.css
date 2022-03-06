@@ -1,0 +1,315 @@
+body {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.section:nth-child(2n) {
+    background-color: #f4f4f4;
+   
+}
+
+
+.section {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 50px auto 50px;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+p {
+    margin: 0 0 30px;
+}
+
+img {
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: none;
+
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 50px;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+
+h3 {
+    color: red;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.big-heading {
+    margin-top: 12px;
+}
+
+.topline {
+    font-weight: 400;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.topline-bold {
+    font-weight: 700;
+}
+.top-container {
+   
+    position: absolute;
+    height: 40px;
+    width: 130.5px;
+    left: 220px;
+    top: 48px;
+    border-radius: 0px;
+
+}
+
+ .container { 
+    position: relative;
+    max-width: 960px;
+    width: 92%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+ } 
+
+ .portfolio-container {
+    width: 360px;
+ }
+
+.header {
+    background-image: url('./images/coffe.jpg');
+    height: 520px;
+    background-position-x: 100%;
+    background-size: cover;
+    position: relative;
+
+    }
+
+.header-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    float: right;
+    margin-top: 80px;
+}
+
+.header-name {
+    color:#fff;
+    margin-top: 150px;
+}  
+
+.big-heading-portfolio {
+    color: black;
+    position: absolute;    
+    font-size: 40px;
+    font-weight: 700;
+    font-family:'Monstserrat', sans-serif;
+    margin-top: 121px;
+    right: 131px;
+    width: 220px;
+    height: 202px;
+
+} 
+
+.intro-text-group {
+    padding: 110px 0 80px;
+    text-align: left;
+
+}
+
+.intro-text {
+    text-indent: 110px;
+}
+
+.intro-text-group::before {
+    position: absolute;
+    top: 122px;
+    content: "";
+    width:  90px;
+    height: 3px;
+    background-color: red;
+}
+
+.intro-text-group::after {
+    position: absolute;
+    content: "";
+    top: 116px;
+    left:  75px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: red;
+
+}
+
+.tech-heading {
+    font-family: Monsterat, sans-serif;
+    font-size: 22px;
+    font-style: bold;
+    line-height: 27px;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-left: 147px;
+    width: 82px;
+    height: 26px;
+}   
+
+
+.tech-more {
+    text-align: left;
+    padding-bottom: 90px;
+    justify-items: center;
+}
+
+
+
+/* ==============================================
+Project
+============================================== */
+
+article {
+    padding-bottom: 30px;
+    width: 49%;
+    text-align: left;
+}
+
+.project-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.project-item::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: 0.35;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 7px;
+    z-index: 1;
+}
+
+.project-heading {
+    font-size: 22px;
+    font-weight: 700;    
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-left: 69px;
+    top: 41px;
+    width: 255px;
+    height: 26px;
+}
+
+
+.project-image {
+    max-width: 100%;
+}
+
+
+.project-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center; 
+    color:white;
+    z-index: 2;
+}
+
+.project-tags {
+    display: flex;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: black;
+    text-align: center;
+    width: 70px;
+    height: 16px;
+}
+
+  
+ 
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  column-gap: 2%;
+}
+
+footer {
+    padding: 50px;
+    color: white;
+    text-align: center;
+    background-color: #072BCE;
+}
+
+
+@media screen and (min-width: 1024) {
+    .container {
+        width: 1200px;   
+    }  
+}
+    
+@media screen and (min-width:860px) {
+    .footer {
+        width: 768px;
+    }   
+}
+
+@media screen and (min-width: 767px) {
+    .container {
+    }
+}
+
+.thoughts {
+
+}
+
+.thoughts-more {
+    text-align: left;
+}
+
+.skills-item {
+    width:  32%;
+}
