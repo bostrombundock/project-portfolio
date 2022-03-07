@@ -39,10 +39,6 @@ p {
     margin: 0 0 30px;
 }
 
-img {
-}
-
-
 h1,
 h2,
 h3,
@@ -195,14 +191,8 @@ h3 {
 .tech-more {
     text-align: left;
     padding-bottom: 90px;
-    justify-items: center;
 }
 
-
-
-/* ==============================================
-Project
-============================================== */
 
 article {
     padding-bottom: 30px;
@@ -281,7 +271,7 @@ footer {
     padding: 50px;
     color: white;
     text-align: center;
-    background-color: #072BCE;
+    background-color: goldenrod;
 }
 
 
@@ -312,4 +302,51 @@ footer {
 
 .skills-item {
     width:  32%;
+}
+
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 3.875rem;
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+.social-item {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border:  3px solid red;
+    margin: 0 15px;
+}
+
+.social-item-linkedin {
+    background-image: url("./images/linkedin.svg");
+    width: 41px;
+    height: 50px;
+    margin: 16px 18px auto;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.social-item-github {
+    background-image: url("./images/github.svg");
+    width: 35px;
+    height: 50px;
+    margin: 18px 20px auto;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.social-item-stack {
+    background-image: url("./images/stack.png");
+    width: 38px;
+    height: 50px;
+    margin: 17px 18px auto;
+    background-repeat: no-repeat;
+    background-size: contain; 
 }
