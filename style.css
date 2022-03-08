@@ -14,6 +14,7 @@ body {
 
 .section {
     margin-bottom: 80px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
@@ -64,7 +65,15 @@ h1 {
 h3 {
     color: red;
     text-align: center;
+    text-transform: uppercase;
     margin-bottom: 30px;
+}
+
+h4 {
+    color: red;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 .big-heading {
@@ -193,9 +202,13 @@ h3 {
     padding-bottom: 90px;
 }
 
+.tech-item {
+    padding-bottom: 40px;
+}
+
 
 article {
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     width: 49%;
     text-align: left;
 }
@@ -258,13 +271,28 @@ article {
     height: 16px;
 }
 
-  
- 
+.tags {
+   margin:0;
+   padding: 0;
+   text-indent: 0;
+   list-style-type: 0;
+}
+
+
+.tag-item {
+    background-color: #ccc;
+    display: inline;
+    padding: 5px 15px;
+    margin-right: 10px;
+}
+
+
 .columns {
   display: flex;
   flex-wrap: wrap;
   height: auto;
   column-gap: 2%;
+  margin-bottom: 80px;
 }
 
 footer {
@@ -296,8 +324,19 @@ footer {
 
 }
 
+.thoughts h4 {
+    text-transform: none;
+    color: black;
+}
+
 .thoughts-more {
     text-align: left;
+}
+
+.date {
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .skills-item {
@@ -316,12 +355,26 @@ footer {
     padding: 0;
 }
 
+.social-list-white {
+    justify-content: right;
+    padding-top: 45px;
+    margin-bottom: -35px;
+}
+
 .social-item {
     width: 75px;
     height: 75px;
     border-radius: 50%;
     border:  3px solid red;
     margin: 0 15px;
+}
+
+.social-item-white {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border:  2px solid white;
+    margin: 0 5px;
 }
 
 .social-item-linkedin {
@@ -335,18 +388,45 @@ footer {
 
 .social-item-github {
     background-image: url("./images/github.svg");
-    width: 35px;
+    width: 42px;
     height: 50px;
-    margin: 18px 20px auto;
+    margin: 16px 17px auto;
     background-repeat: no-repeat;
     background-size: contain; 
 }
 
 .social-item-stack {
-    background-image: url("./images/stack.png");
+    background-image: url("./images/stack.svg");
     width: 38px;
     height: 50px;
     margin: 17px 18px auto;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.social-item-linkedin-white {
+    background-image: url("./images/linkedin-white.svg");
+    width: 23px;
+    height: 25px;
+    margin: 7px 10px auto;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.social-item-github-white {
+    background-image: url("./images/github-white.svg");
+    width: 29px;
+    height: 50px;
+    margin: 5px 6px auto;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.social-item-stack-white {
+    background-image: url("./images/stack-white.svg");
+    width: 20px;
+    height: 20px;
+    margin: 9px 11px auto;
     background-repeat: no-repeat;
     background-size: contain; 
 }
