@@ -303,6 +303,8 @@ footer {
 }
 
 
+
+
 @media screen and (min-width: 1024) {
     .container {
         width: 1200px;   
@@ -318,8 +320,23 @@ footer {
 @media screen and (min-width: 767px) {
     .container {
     }
+    .project-item {
+    width: 100%;
+    column-gap: 0;
+
+    }
 }
 
+@media screen and (max-width:767px) 
+    {
+    article {
+        width: 100%;
+    }
+    .columns {
+        column-gap: 0;
+
+    }
+}
 .thoughts {
 
 }
