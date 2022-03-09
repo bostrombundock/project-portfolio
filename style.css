@@ -318,8 +318,7 @@ footer {
 }
 
 @media screen and (min-width: 767px) {
-    .container {
-    }
+   
     .project-item {
     width: 100%;
     column-gap: 0;
@@ -337,9 +336,7 @@ footer {
 
     }
 }
-.thoughts {
 
-}
 
 .thoughts h4 {
     text-transform: none;
