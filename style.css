@@ -204,6 +204,7 @@ h4 {
 
 .tech-item {
     padding-bottom: 40px;
+    color: red;
 }
 
 
@@ -244,9 +245,10 @@ article {
 
 
 .project-image {
-    max-width: 100%;
-}
 
+    max-width: 100%;
+    
+}
 
 .project-overlay {
     position: absolute;
@@ -284,6 +286,7 @@ article {
     display: inline;
     padding: 5px 15px;
     margin-right: 10px;
+    color: black;
 }
 
 
