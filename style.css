@@ -1,9 +1,11 @@
-body {
-    font-size: 18px;
-    line-height: 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    body {
+        margin: 0;
+        font-size: 18px;
+        line-height: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
 }
 
 .section:nth-child(2n) {
