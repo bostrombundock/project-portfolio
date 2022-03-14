@@ -6,7 +6,6 @@
         font-style: normal;
         font-weight: 400;
     }
-}
 
 .section:nth-child(2n) {
     background-color: #f4f4f4;
@@ -229,7 +228,7 @@ article {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 7px;
+    bottom: 0;
     z-index: 1;
 }
 
@@ -248,8 +247,15 @@ article {
 
 .project-image {
 
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     
+}
+
+.over.image {
+
+    max-height: 360px;
+    overflow: hidden;
 }
 
 .project-overlay {
