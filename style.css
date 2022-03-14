@@ -23,7 +23,7 @@
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: red;
+    background-color: teal;
     color: white;
     text-align: center;
     margin: 50px auto 50px;
@@ -64,14 +64,14 @@ h1 {
 }
 
 h3 {
-    color: red;
+    color: teal;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
 
 h4 {
-    color: red;
+    color: teal;
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 20px;
@@ -168,7 +168,7 @@ h4 {
     content: "";
     width:  90px;
     height: 3px;
-    background-color: red;
+    background-color: teal;
 }
 
 .intro-text-group::after {
@@ -179,7 +179,7 @@ h4 {
     width: 18px;
     height: 18px;
     border-radius: 50%;
-    background-color: red;
+    background-color: teal;
 
 }
 
@@ -189,7 +189,7 @@ h4 {
     font-style: bold;
     line-height: 27px;
     font-weight: 700;
-    background-color: red;
+    background-color: teal;
     color: white;
     text-align: center;
     margin-left: 147px;
@@ -205,7 +205,7 @@ h4 {
 
 .tech-item {
     padding-bottom: 40px;
-    
+    color: black;
 }
 
 
@@ -235,7 +235,7 @@ article {
 .project-heading {
     font-size: 22px;
     font-weight: 700;    
-    background-color: red;
+    background-color: teal;
     color: white;
     text-align: center;
     margin-left: 69px;
